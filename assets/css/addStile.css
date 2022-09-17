@@ -1,0 +1,203 @@
+/* bossText */
+
+.bossText {
+    margin: 40px auto 70px;
+}
+.bossText .row {
+    display: flex;
+    justify-content: center;
+}
+.bossText__img {
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.bossText__img-text1 {
+    margin-top: 15px;
+    font-size: 19px;
+    font-weight: 600;
+}
+.bossText__img-text2 {
+    margin-top: -30px;
+    padding-top: 0;
+}
+.bossText__img img {
+    border-radius: 50%;
+    width: 190px;
+    border: 7px solid #F0F4F8;
+    box-shadow: 2px 4px 20px 1px rgba(45, 45, 45, 0.13);
+}
+.bossText__txt {
+    width: 65%;
+}
+.bossText__txt-1 {
+    font-size: 19px;
+    font-weight: 500;
+    font-style: italic;
+    background-color: #F0F4F8;
+    padding: 14px 17px;
+    color: #303036;
+    border-radius: 10px;
+    box-shadow: 2px 4px 20px 1px rgba(45, 45, 45, 0.13);
+    position: relative;
+}
+
+.bossText__txt-2 {
+    padding: 0 17px;
+    line-height: 31px;
+    font-style: italic;
+    font-size: 20px;
+    color: #444444;
+    font-weight: 400;
+}
+@media (max-width: 868px) {
+
+    .bossText .row {
+        flex-direction: column;
+    }
+    .bossText {
+        margin-top: -240px;
+        padding-bottom: 0;
+    }
+    .bossText__img {
+        width: 100%;
+    }
+    .bossText__txt {
+        width: 100%;
+    }
+    .bossText__txt-1 {
+        border-radius: 0;
+        font-size: 21px;
+    }
+    .bossText__img-text2 {
+        font-size: 18px;
+    }
+
+}
+
+/* for content my 1 */
+#addContent1 .content{
+    width: 85%;
+    margin: 60px auto 0;
+}
+#addContent1 .content h2 {
+    color: #3598db;
+    font-size: 2.5em;
+    text-align: center;
+}
+#addContent1 .content h3 {
+    display: block;
+    padding: 40px 0 20px;
+    width: 75%;
+    text-align: center;
+    border-top: 1px solid rgb(228, 228, 228);
+}
+.myContH3-2 {
+    float: left;
+}
+.myContH3-1 {
+    float: right;
+}
+#addContent1 .content img {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    box-shadow: 2px 4px 20px 1px rgba(45, 45, 45, 0.13);
+    border-radius: 50%;
+}
+#addContent1 .content div p {
+    width: 100%;
+    padding: 20px 0 0 0;
+    margin: 0;
+}
+#addContent1 .content div p:first-child {
+    width: 100%;
+    padding: 0;
+    margin: 0;
+}
+#addContent1 .content .contentBlockMy1 {
+    display: flex;
+    justify-content: center;
+    clear: both;
+}
+#addContent1 .content .contentBlockMy2 {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+    clear: both;
+}
+#addContent1 .content .contentBlockMy1 div:nth-child(odd){
+    width: 20%;
+    margin-right: 5%;
+}
+#addContent1 .content .contentBlockMy2 div:nth-child(odd){
+    width: 20%;
+    margin-left: 5%;
+}
+#addContent1 .content .contentBlockMy1 div:nth-child(even){
+    width: 75%;
+    padding: 0;
+    margin: 0;
+}
+#addContent1 .content .contentBlockMy2 div:nth-child(even){
+    width: 75%;
+    padding: 0;
+    margin: 0;
+}
+@media (max-width: 768px) {
+    #addContent1 .content .contentBlockMy1 {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    #addContent1 .content .contentBlockMy2 {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    #addContent1 .content .contentBlockMy1 div:nth-child(odd){
+        width: 50%;
+        margin-right: 0;
+        margin: 10px 0 40px 0;
+    }
+    #addContent1 .content .contentBlockMy2 div:nth-child(odd){
+        width: 50%;
+        margin-left: 0;
+        margin: 0 0 40px 0;
+    }
+    #addContent1 .content .contentBlockMy1 div:nth-child(even){
+        width: 100%;
+        padding: 0;
+        margin: 0;
+    }
+    #addContent1 .content .contentBlockMy2 div:nth-child(even){
+        width: 100%;
+        padding: 0;
+        margin: 0;
+    }
+    #addContent1 .content h3 {
+        width: 100%;
+        padding: 40px 0 20px 0;
+    }
+    .myContH3-2 {
+        float: none;
+    }
+    .myContH3-1 {
+        float: none;
+    }
+}
+/**/
+/*********************** OFFER LIST **********************/
+.notoffer {
+    text-align: center;
+    padding: 100px 0;
+}
+
+/************************** CARD VIDEO ************************/
+html body #cardVideo {
+    justify-content: center;
+    align-content: center;
+    display: flex;
+}
